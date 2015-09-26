@@ -1,8 +1,15 @@
-<div id="wrapper">
 
+<div id="wrapper">
+    <div class="pText">
+        <img src="img/Capture.png">
+    </div>
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
+
+
         <ul class="sidebar-nav">
+
+
             <li class="sidebar-brand">
                 <a href="#">
                     Chalo Niklo!
@@ -53,8 +60,10 @@
                         <accordion-heading is-open="status.open">
                             Shopping and Eating <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
                         </accordion-heading>
-                        This is just some content to illustrate fancy headings.
-
+                        <select chosen multiple
+                                 ng-model="data.country"
+                                ng-options="item for item in countries">
+                        </select>
                     </accordion-group>
                     <accordion-group is-open="status.open1">
                         <accordion-heading>
