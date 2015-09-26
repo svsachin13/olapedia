@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/olapedia.iml" filepath="$PROJECT_DIR$/.idea/olapedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/olapedia.iml" filepath="$PROJECT_DIR$/.idea/modules/olapedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/olapedia-build.iml" filepath="$PROJECT_DIR$/.idea/modules/olapedia-build.iml" />
     </modules>
   </component>
 </project>
