@@ -4,7 +4,7 @@
 		module="olapedia-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150926211047"
+		publication="20150926225359"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
