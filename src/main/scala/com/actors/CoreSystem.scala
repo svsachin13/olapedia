@@ -27,7 +27,7 @@ class MyActor extends Actor{
   }
   override def receive: Receive =
   {
-    case cmd:Booking=>"received booking"
+    case cmd:Booking=>println("received booking")
     case "hello" => //check database and do the bookings using ola api before 20 minutes of the start time
   }
 }

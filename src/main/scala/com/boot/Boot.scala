@@ -6,10 +6,11 @@
 
 package com.boot
 
-import akka.actor.{ ActorSystem}
+import akka.actor.{Props, ActorSystem}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.RouteConcatenation
 import akka.stream.ActorMaterializer
+import com.actors.MyActor
 import com.dao.{BookingDAO, OlaDAO}
 import com.rest.{BookingRest, OlaRest}
 import com.utils.CORSSupport
@@ -25,7 +26,8 @@ trait RestEndCollection extends RouteConcatenation with CORSSupport{
 
 object Boot extends App with RestEndCollection{
   implicit val materializer = ActorMaterializer()
-
+  val sys=ActorSystem.create("sys")
+  sys.actorOf(Props[MyActor],"myactor")
   val r = Http().bindAndHandle(availableRoutes, interface = "0.0.0.0", port = 8080)
   r.map { x => println("Successfully Bound to " + x.localAddress) }.recover { case _ => println("Failed to Bind ") }
   Thread.sleep(5000)
