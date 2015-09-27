@@ -2,8 +2,8 @@ package com.utils
 
 import akka.actor.{ActorContext, Actor, Props}
 import com.actors.CoreSystem
-import com.dao.HotelDAO
-import com.rest.HotelRest
+import com.dao.OlaDAO
+import com.rest.OlaRest
 import spray.routing._
 
 /**
@@ -12,7 +12,7 @@ import spray.routing._
  */
 trait RestServices extends CoreSystem{
 
-  val availableRoutes = new HotelRest(new HotelDAO).hotelRest
+  val availableRoutes = new OlaRest(new OlaDAO).olaRest
 
   val routeService = system.actorOf(Props(classOf[MyHttpService], availableRoutes),"RouteService")
 }
