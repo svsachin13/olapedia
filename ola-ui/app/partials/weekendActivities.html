@@ -1,0 +1,278 @@
+<div id="wrapper">
+    <div class="pText">
+        <img src="img/Capture.png">
+    </div>
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+
+
+        <ul class="sidebar-nav">
+
+
+            <li class="sidebar-brand">
+                <a href="#">
+                    Chalo Niklo!
+                </a>
+            </li>
+            <li>
+                <a href="#">BOOK MY RIDE</a>
+            </li>
+            <li>
+                <a href="#">MY RIDES</a>
+            </li>
+            <li>
+                <a href="#">OLA MONEY</a>
+            </li>
+
+            <li>
+                <a href="#">RATE CARD</a>
+            </li>
+            <li>
+                <a href="#">EMERGENCY CONTACT</a>
+            </li>
+            <li>
+                <a href="">MY WEEKEND PLANNER</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Plan your weekends with Ola Ride!</h1>
+
+                    <p>This feature enables you to plan your weekend according to your needs</p>
+
+                    <p>Choose your favourite locations,time and click ok!The rest Ola will take care for you.Made for
+                        you with your convinience .</p>
+
+                    <p>I want to (Choose and add a category)</p>
+                </div>
+
+                <accordion close-others="oneAtATime">
+                    <accordion-group is-open="status.open">
+                        <accordion-heading is-open="status.open">
+                            <span data-ng-click="showShoppingList()">Shopping and Eating</span> <i
+                                class="pull-right glyphicon"
+                                ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                        </accordion-heading>
+                        <div class="row">
+                            <div class="col-md-3 form-group">
+                                <label>Select your destination</label>
+                                <select class="form-control"
+                                        ng-model="shopMall"
+                                        ng-options="r as r.name for r in malls">
+                                    <option value="">
+                                        --Selec--
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="col-md-2 form-group">
+                                <label>Time spent(in Hours)</label>
+                                <input type="text" class="form-control" ng-model="time" placeholder="Eg:2 Hrs">
+                            </div>
+                            <div class="col-md-1 form-group">
+                                <label>Variable?</label>
+                                <input type="checkbox" class="checkbox">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label>&nbsp;</label><br>
+                                <button type="button" class="btn btn-primary"
+                                        ng-click="saveShoppingMallsToList(shopMall,time);shopMall='';time=''">Add to
+                                    List
+                                </button>
+                                <button type="button" class="btn btn-warning">Cancel</button>
+                                <button type="button" class="btn btn-danger">Close my Itinerary</button>
+                            </div>
+
+                        </div>
+                        <div class="row form-group">
+                            <div ng-repeat="item in shoppingMallList">
+                                <p class=" form-group  bacgroudText">You'll spend <span class="label label-primary">{{item.time}} hours</span>
+                                    at
+                                    <span class="label label-warning"> {{item.name}}</span></p>
+                            </div>
+                        </div>
+
+
+                    </accordion-group>
+                    <accordion-group is-open="status.open1">
+                        <accordion-heading>
+                            <span data-ng-click="showCinemaList()">Movies and Party</span> <i
+                                class="pull-right glyphicon"
+                                ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                        </accordion-heading>
+                        <div class="row">
+                            <div class="col-md-3 form-group">
+                                <label>Select your destination</label>
+                                <select chosen multiple class="form-control"
+                                        ng-model="data.cinema"
+                                        ng-options="r as r.name for r in cinemas">
+                                </select>
+                            </div>
+                            <div class="col-md-2 form-group">
+                                <label>Time spent(in Hours)</label>
+                                <input type="text" class="form-control" placeholder="Eg:2 Hrs">
+                            </div>
+                            <div class="col-md-1 form-group">
+                                <label>Variable?</label>
+                                <input type="checkbox" class="checkbox">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label>&nbsp;</label><br>
+                                <button type="button" class="btn btn-primary">Add to List</button>
+                                <button type="button" class="btn btn-warning">Cancel</button>
+                                <button type="button" class="btn btn-danger">Close my Itinerary</button>
+                            </div>
+                        </div>
+
+                    </accordion-group>
+                    <accordion-group is-open="status.open2">
+                        <accordion-heading>
+                            <span data-ng-click="showResortList()">Family Fun</span> <i class="pull-right glyphicon"
+                                                                                        ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                        </accordion-heading>
+                        This is just some content to illustrate fancy headings.
+
+                    </accordion-group>
+                    <accordion-group is-open="status.open3">
+                        <accordion-heading>
+                            Entertainment and Lifestyle <i class="pull-right glyphicon"
+                                                           ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                        </accordion-heading>
+                        This is just some content to illustrate fancy headings.
+
+                    </accordion-group>
+                    <accordion-group is-open="status.open4">
+                        <accordion-heading>
+                            Outdoor Recreation <i class="pull-right glyphicon"
+                                                  ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                        </accordion-heading>
+                        This is just some content to illustrate fancy headings.
+
+                    </accordion-group>
+                    <accordion-group is-open="status.open5">
+                        <accordion-heading>
+                            Health and Beauty <i class="pull-right glyphicon"
+                                                 ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                        </accordion-heading>
+                        This is just some content to illustrate fancy headings.
+
+                    </accordion-group>
+                </accordion>
+
+
+            </div>
+        </div>
+        <div id="map" style="width: 1100px; height: 500px; position: relative;"
+             class="leaflet-container leaflet-fade-anim" tabindex="0">
+            <div class="leaflet-map-pane" style="transform: translate3d(-25px, 0px, 0px);">
+                <div class="leaflet-tile-pane">
+                    <div class="leaflet-layer">
+                        <div class="leaflet-tile-container"></div>
+                        <div class="leaflet-tile-container leaflet-zoom-animated"><img
+                                class="leaflet-tile leaflet-tile-loaded"
+                                src="https://api.tiles.mapbox.com/v4/mapbox.streets/13/4093/2723.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ"
+                                style="height: 256px; width: 256px; left: 56px; top: -91px;"><img
+                                class="leaflet-tile leaflet-tile-loaded"
+                                src="https://api.tiles.mapbox.com/v4/mapbox.streets/13/4094/2723.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ"
+                                style="height: 256px; width: 256px; left: 312px; top: -91px;"><img
+                                class="leaflet-tile leaflet-tile-loaded"
+                                src="https://api.tiles.mapbox.com/v4/mapbox.streets/13/4093/2724.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ"
+                                style="height: 256px; width: 256px; left: 56px; top: 165px;"><img
+                                class="leaflet-tile leaflet-tile-loaded"
+                                src="https://api.tiles.mapbox.com/v4/mapbox.streets/13/4094/2724.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ"
+                                style="height: 256px; width: 256px; left: 312px; top: 165px;"><img
+                                class="leaflet-tile leaflet-tile-loaded"
+                                src="https://api.tiles.mapbox.com/v4/mapbox.streets/13/4092/2723.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ"
+                                style="height: 256px; width: 256px; left: -200px; top: -91px;"><img
+                                class="leaflet-tile leaflet-tile-loaded"
+                                src="https://api.tiles.mapbox.com/v4/mapbox.streets/13/4095/2723.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ"
+                                style="height: 256px; width: 256px; left: 568px; top: -91px;"><img
+                                class="leaflet-tile leaflet-tile-loaded"
+                                src="https://api.tiles.mapbox.com/v4/mapbox.streets/13/4092/2724.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ"
+                                style="height: 256px; width: 256px; left: -200px; top: 165px;"><img
+                                class="leaflet-tile leaflet-tile-loaded"
+                                src="https://api.tiles.mapbox.com/v4/mapbox.streets/13/4095/2724.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ"
+                                style="height: 256px; width: 256px; left: 568px; top: 165px;"></div>
+                    </div>
+                </div>
+                <div class="leaflet-objects-pane">
+                    <div class="leaflet-shadow-pane"><img src="http://leafletjs.com/dist/images/marker-shadow.png"
+                                                          class="leaflet-marker-shadow leaflet-zoom-animated"
+                                                          style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; transform: translate3d(300px, 247px, 0px);">
+                    </div>
+                    <div class="leaflet-overlay-pane">
+                        <svg class="leaflet-zoom-animated" width="878" height="586" viewBox="-114 -93 878 586"
+                             style="transform: translate3d(-114px, -93px, 0px);">
+                            <g>
+                                <path stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd" stroke="red"
+                                      stroke-opacity="0.5" stroke-width="5" fill="#f03" fill-opacity="0.5"
+                                      class="leaflet-clickable" d="M183,130A42,42,0,1,1,182.9,130 z"></path>
+                            </g>
+                            <g>
+                                <path stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd"
+                                      stroke="#0033ff" stroke-opacity="0.5" stroke-width="5" fill="#0033ff"
+                                      fill-opacity="0.2" class="leaflet-clickable" d="M358 163L474 219L550 153z"></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="leaflet-marker-pane"><img src="http://leafletjs.com/dist/images/marker-icon.png"
+                                                          class="leaflet-marker-icon leaflet-zoom-animated leaflet-clickable"
+                                                          tabindex="0"
+                                                          style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(300px, 247px, 0px); z-index: 247;">
+                    </div>
+                    <div class="leaflet-popup-pane"></div>
+                </div>
+            </div>
+            <div class="leaflet-control-container">
+                <div class="leaflet-top leaflet-left">
+                    <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in"
+                                                                                     href="#" title="Zoom in">+</a><a
+                            class="leaflet-control-zoom-out" href="#" title="Zoom out">-</a></div>
+                </div>
+                <div class="leaflet-top leaflet-right"></div>
+                <div class="leaflet-bottom leaflet-left"></div>
+                <div class="leaflet-bottom leaflet-right">
+                    <div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com"
+                                                                                title="A JS library for interactive maps">Leaflet</a>
+                        | Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a
+                                href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a
+                                href="http://mapbox.com">Mapbox</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <table class="table lText table-bordered">
+        <thead>
+        <th height="20%"width="48%" class="catBG text-center" colspan="2">
+            <span class="pickClr cursor-pointer"> CATEGORY MINI</span>
+        </th>
+        <th class="catBG text-center" colspan="2">
+            <span class="pickClr cursor-pointer"> PICK UP TIME</span>
+
+        </th>
+        </thead>
+        <table class="table lText table-bordered">
+            <thead>
+            <th height="20%" class="bgClr text-center" colspan="2">
+                <span class="textClr cursor-pointer"> CANCEL</span>
+            </th>
+            <th class="bgClr text-center" colspan="2">
+                <span class="textClr cursor-pointer" ng-click="saveBookingData()"> CONFIRM</span>
+
+            </th>
+            </thead>
+        </table>
+
+
+        <!-- /#page-content-wrapper -->
+
+
+        <!-- /#wrapper -->

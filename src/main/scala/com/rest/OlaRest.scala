@@ -1,22 +1,64 @@
 package com.rest
 
+import akka.actor.ActorSystem
+import akka.http.scaladsl.model.HttpEntity
+import akka.http.scaladsl.model.HttpResponse
+import akka.http.scaladsl.model.MediaTypes
+import akka.http.scaladsl.model.StatusCodes
+import akka.http.scaladsl.server.Directives
+import akka.stream.ActorMaterializer
+import akka.util.Timeout
+import com.domain.Ola
+import com.utils.Utilities
+import org.json4s.{Extraction, DefaultFormats}
+import org.json4s.jackson.JsonMethods._
 import scala.concurrent.ExecutionContext.Implicits.global
 import com.dao.OlaDAO
-import net.liftweb.json.Serialization._
-import spray.http._
-import spray.routing._
+import scala.concurrent.duration._
 
-class OlaRest(ola:OlaDAO) extends Directives{
+import scala.concurrent.Future
 
-  implicit val formats = net.liftweb.json.DefaultFormats
+class OlaRest(olaRepo: OlaDAO) extends Directives {
+  implicit val askTimeout: Timeout = 10.seconds
 
-  val olaRest = path("olas") {
-    get {
-      respondWithMediaType(MediaTypes.`application/json`) { ctx =>
-        ola.getOla().map { res =>
-          ctx.complete(write(res))
-        }.recover{case x: Throwable=>
-          ctx.complete("error")
+  implicit val system = ActorSystem.create("Test")
+
+  implicit val materializer = ActorMaterializer()
+
+  implicit val f = DefaultFormats ++ List(Utilities.SqlDateSerializer)
+
+  val routes = path("ola") {
+    post {
+      entity(as[String]) { data =>
+        complete {
+          val parsedData = parse(data).extract[List[Ola]]
+          olaRepo.addOla(parsedData).map { result =>
+            HttpResponse(status = StatusCodes.OK, entity = HttpEntity(MediaTypes.`application/json`, compact(Extraction.decompose(result))))
+          }
+        }
+      }
+    }} ~ path("ola") {
+      get {
+        complete {
+          olaRepo.getOla().map { result =>
+            HttpResponse(status = StatusCodes.OK, entity = HttpEntity(MediaTypes.`application/json`, compact(Extraction.decompose(result))))
+          }
+        }
+      }
+  } ~ pathPrefix("ola" / "olaId" / LongNumber) { id =>
+    put {
+      entity(as[String]) { data =>
+        complete {
+          val parsedData = parse(data).extract[Ola]
+          olaRepo.updateOla(id, parsedData).map { result =>
+            HttpResponse(status = StatusCodes.OK, entity = HttpEntity(MediaTypes.`application/json`, compact(Extraction.decompose(result))))
+          }
+        }
+      }
+    } ~ delete {
+      complete {
+        olaRepo.deleteOla(id).map { result =>
+          HttpResponse(status = StatusCodes.OK, entity = HttpEntity(MediaTypes.`application/json`, compact(Extraction.decompose(result))))
         }
       }
     }

@@ -2,13 +2,44 @@
 
 /* Controllers */
 
-var phonecatControllers = angular.module('phonecatControllers', []);
+var olaControllers = angular.module('olaControllers', []);
 
-phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
-  function($scope, Phone) {
-    $scope.phones = Phone.query();
-    $scope.orderProp = 'age';
+olaControllers.controller('olaWeekendPlannerCtrl', ['$scope', 'Phone','Restangular',
+  function($scope, Phone,Restangular) {
+
+var baseBooking = Restangular.all('booking');
+   $scope.shoppingMallList=[];
+      $scope.saveShoppingMallsToList=function(sMall,t){
+    $scope.shoppingMallList.push({name:sMall.name,time:t});
+    $scope.location=sMall;
+     }
+
+     $scope.saveBookingData=function(){
+        var  postObj={
+          id:1,
+          userName:"mailmrmanoj",
+           startTime: "2012-11-10T18:30:00Z",
+            endTime: "2012-11-10T18:30:00Z",
+            latitude:$scope.location.location[0],
+            longitude:$scope.location.location[1],
+            isRemoved:false
+         }
+
+     baseBooking.post(postObj);
+     }
     var markers = new L.FeatureGroup();
+    $scope.malls=[
+                            		    {name:"Ub City",location:[12.9715128,77.5942093]},
+                            		    {name:"garuda mall",location:[12.9699951,77.607428]},
+                            		    {name:"forum mall",location:[12.9344387,77.6090822]},
+                            		    {name:"pheonix marketcity",location:[12.9969579,77.6940293]}
+                            		];;
+    $scope.cinemas=[
+                                           {name:"inox value mall",location:[12.9595092,77.7457013]},
+                                          	{name:"pvr forum mall",location:[12.9473114,77.5099069]},
+                                          	{name:"fun cinemas",location:[12.9882352,77.5925242]},
+                                          	{name:"fame shankarnag",location:[12.9744003,77.6074615]}
+                                          	];;
 
     $scope.showShoppingList=()=>{
      markers.clearLayers();
@@ -65,7 +96,7 @@ phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
     			color: 'red',
     			fillColor: '#f03',
     			fillOpacity: 0.5
-    		}).addTo(map).bindPopup("I am a circle.");
+    		}).addTo(map).bindPopup("My Current Location.");
 
     		L.polygon([
     			[12.942472, 77.556387],
@@ -88,7 +119,7 @@ phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
 
   }]);
 
-phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
+olaControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
   function($scope, $routeParams, Phone) {
     $scope.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
       $scope.mainImageUrl = phone.images[0];

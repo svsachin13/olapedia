@@ -2,27 +2,26 @@
 
 /* App Module */
 
-var phonecatApp = angular.module('phonecatApp', [
+var olaApp = angular.module('olaApp', [
   'ngRoute','localytics.directives',
-  'phonecatAnimations',
    'ui.bootstrap',
-  'phonecatControllers',
-  'phonecatFilters',
-  'phonecatServices'
+  'olaControllers',
+   'phonecatServices',
+   'restangular'
 ]);
 
-phonecatApp.config(['$routeProvider',
-  function($routeProvider) {
+olaApp.config(['$routeProvider','RestangularProvider',
+  function($routeProvider,RestangularProvider) {
     $routeProvider.
       when('/ride', {
-        templateUrl: 'partials/phone-list.html',
-        controller: 'PhoneListCtrl'
+        templateUrl: 'partials/weekendActivities.html',
+        controller: 'olaWeekendPlannerCtrl'
       }).
-      when('/ride/:phoneId', {
-        templateUrl: 'partials/phone-detail.html',
-        controller: 'PhoneDetailCtrl'
-      }).
+
       otherwise({
         redirectTo: '/ride'
       });
+
+   RestangularProvider.setBaseUrl('https://localhost:8080');
+
   }]);
