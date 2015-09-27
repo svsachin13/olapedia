@@ -1,9 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ba82b28-a668-405e-a198-10d7cfc6abc8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ola-ui/app/js/controllers.js" afterPath="$PROJECT_DIR$/ola-ui/app/js/controllers.js" />
+<<<<<<< HEAD
+    <list default="true" id="6486fd19-3224-41ec-96ea-c6e9e4c01fe6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ola-ui/.gitignore" afterPath="$PROJECT_DIR$/ola-ui/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ola-ui/app/partials/phone-list.html" afterPath="$PROJECT_DIR$/ola-ui/app/partials/phone-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+    <list default="true" id="8ba82b28-a668-405e-a198-10d7cfc6abc8" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\source\olapedia\project\project\target\config-classes\$f26992cc1d45dedcd60b$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\project\target\config-classes\$f26992cc1d45dedcd60b$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\project\target\config-classes\$f26992cc1d45dedcd60b.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\project\target\config-classes\$f26992cc1d45dedcd60b.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$0c9fa590ed49a668f1d9$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$0c9fa590ed49a668f1d9$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$0c9fa590ed49a668f1d9.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$0c9fa590ed49a668f1d9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$0eadfead1590105f31ed$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$0eadfead1590105f31ed$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$0eadfead1590105f31ed$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$0eadfead1590105f31ed.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$0eadfead1590105f31ed.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$17576df697c6e116b16e$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$17576df697c6e116b16e$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$17576df697c6e116b16e.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$17576df697c6e116b16e.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$4846045fc21c470937b1$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$4846045fc21c470937b1$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$4846045fc21c470937b1.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$4846045fc21c470937b1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$4cd999de56779beed2ed$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$4cd999de56779beed2ed$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$4cd999de56779beed2ed.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$4cd999de56779beed2ed.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$5591c750a3cc8865f074$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$5591c750a3cc8865f074$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$5591c750a3cc8865f074.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$5591c750a3cc8865f074.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$b4712a29af06b7997255$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$b4712a29af06b7997255$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$b4712a29af06b7997255.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$b4712a29af06b7997255.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$f6a3d9956adccecee272$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$f6a3d9956adccecee272$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$f6a3d9956adccecee272.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$f6a3d9956adccecee272.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ola-ui/app/index.html" afterPath="$PROJECT_DIR$/ola-ui/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ola-ui/app/partials/phone-list.html" afterPath="$PROJECT_DIR$/ola-ui/app/partials/phone-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/olapedia-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/olapedia-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/myproject/myproject_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/myproject/myproject_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/olapedia-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/olapedia-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/myproject/myproject_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/myproject/myproject_2.11/1.0/resolved.xml.xml" />
+>>>>>>> 23466fb7300eb57bc38ff163928dbc824bd360d6
     </list>
     <ignored path="olapedia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +145,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ola-ui/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3076925">
-              <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+            <state vertical-scroll-proportion="-1.8113208">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -62,16 +157,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ola-ui/app/js/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.037037">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,8 +175,13 @@
       <file leaf-file-name="phone-list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ola-ui/app/partials/phone-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5878136">
-              <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.2844365">
+              <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
+              <folding />
+=======
+            <state vertical-scroll-proportion="-4.5384617">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -107,6 +197,31 @@
                 <element signature="n#style#0;n#svg#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
+>>>>>>> 23466fb7300eb57bc38ff163928dbc824bd360d6
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ola-ui/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.030520646">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leaflet.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ola-ui/app/css/leaflet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+=======
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+>>>>>>> 23466fb7300eb57bc38ff163928dbc824bd360d6
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,10 +239,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/ola-ui/app/js/showList.js" />
         <option value="$PROJECT_DIR$/ola-ui/app/index.html" />
+        <option value="$PROJECT_DIR$/ola-ui/app/partials/phone-list.html" />
+>>>>>>> 23466fb7300eb57bc38ff163928dbc824bd360d6
         <option value="$PROJECT_DIR$/ola-ui/.gitignore" />
-        <option value="$PROJECT_DIR$/ola-ui/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/ola-ui/app/partials/phone-list.html" />
       </list>
     </option>
@@ -213,6 +331,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="olapedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="olapedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ola-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -235,9 +372,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+=======
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+>>>>>>> 23466fb7300eb57bc38ff163928dbc824bd360d6
           </PATH>
         </subPane>
       </pane>
@@ -490,8 +632,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
+=======
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
+>>>>>>> 23466fb7300eb57bc38ff163928dbc824bd360d6
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -504,8 +651,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+>>>>>>> 23466fb7300eb57bc38ff163928dbc824bd360d6
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -528,6 +679,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/ola-ui/.gitignore">
+=======
     <entry file="file://$PROJECT_DIR$/ola-ui/app/js/animations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -537,33 +691,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ola-ui/app/js/leaflet.js">
+>>>>>>> 23466fb7300eb57bc38ff163928dbc824bd360d6
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/ola-ui/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/ola-ui/app/css/leaflet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ola-ui/app/js/showList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ola-ui/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.030520646">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -576,26 +722,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ola-ui/app/index.html">
+    <entry file="file://$PROJECT_DIR$/ola-ui/app/js/showList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3076925">
-          <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ola-ui/app/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/ola-ui/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.037037">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.8113208">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ola-ui/app/partials/phone-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5878136">
-          <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+        <state vertical-scroll-proportion="-4.5384617">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -611,6 +757,20 @@
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+>>>>>>> 23466fb7300eb57bc38ff163928dbc824bd360d6
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ola-ui/app/partials/phone-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.2844365">
+          <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
+=======
+        <state vertical-scroll-proportion="0.030520646">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+>>>>>>> 23466fb7300eb57bc38ff163928dbc824bd360d6
+          <folding />
         </state>
       </provider>
     </entry>

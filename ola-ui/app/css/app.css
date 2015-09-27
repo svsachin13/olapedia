@@ -97,3 +97,40 @@ ul.specs dt {
 h1 {
   border-bottom: 1px solid gray;
 }
+
+//
+html, body {
+    height: 100%;
+}
+#wrapper1:before {
+    content:'';
+    float: left;
+    height: 100%;
+}
+#wrapper1 {
+    height: 100%;
+}
+#content1 {
+    position: relative;
+    background: green;
+}
+#content1:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+.scroll1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.pText{
+    left: 250px;
+    margin-left: -250px;
+    position: fixed;
+    z-index: 1000;
+    height: 100%;
+    overflow-y: auto;
+    width: 250px;
+}
