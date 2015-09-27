@@ -71,5 +71,5 @@ it whenever you like.
 
 ## Contact
 
-For more information on OlaPedia App please check out mailmrmanoj@gmail.com/svsachin13@gmail.com/devidatta45@gmail.com
+For more information on OlaPedia App please check out mailmrmanoj@gmail.com / svsachin13@gmail.com / devidatta45@gmail.com
  
