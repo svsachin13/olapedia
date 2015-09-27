@@ -12,10 +12,12 @@ var baseBooking = Restangular.all('booking');
       $scope.saveShoppingMallsToList=function(sMall,t){
     $scope.shoppingMallList.push({name:sMall.name,time:t});
     $scope.location=sMall;
+    markers.clearLayers();
+    markers.addLayer(L.marker(sMall.location).bindPopup(sMall.name))
      }
 
      $scope.saveBookingData=function(){
-        var  postObj={
+        var  postObj=[{
           id:1,
           userName:"mailmrmanoj",
            startTime: "2012-11-10T18:30:00Z",
@@ -23,7 +25,7 @@ var baseBooking = Restangular.all('booking');
             lattitude:$scope.location.location[0],
             longitude:$scope.location.location[1],
             isRemoved:false
-         }
+         }]
 
      baseBooking.customPOST(postObj);
      }

@@ -2,96 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="581c79a4-db75-4eaf-98af-95d674623ea1" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\source\olapedia\project\project\target\config-classes\$c9accc92d49725d6a955$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\project\target\config-classes\$c9accc92d49725d6a955$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\project\target\config-classes\$c9accc92d49725d6a955.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\project\target\config-classes\$c9accc92d49725d6a955.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$021cfec4a62579cbb9d6$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$021cfec4a62579cbb9d6$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$021cfec4a62579cbb9d6.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$021cfec4a62579cbb9d6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$6743ae43100b6bfd79d6$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$6743ae43100b6bfd79d6$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$6743ae43100b6bfd79d6.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$6743ae43100b6bfd79d6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$832cc6e2f8b8430c5d33$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$832cc6e2f8b8430c5d33$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$832cc6e2f8b8430c5d33.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$832cc6e2f8b8430c5d33.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$94c33ca0113a6a342b7b$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$94c33ca0113a6a342b7b$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$94c33ca0113a6a342b7b.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$94c33ca0113a6a342b7b.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$97502be53a4fd5303bcf$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$97502be53a4fd5303bcf$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$97502be53a4fd5303bcf.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$97502be53a4fd5303bcf.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$9dda39393b8f80dbcb62$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$9dda39393b8f80dbcb62$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$9dda39393b8f80dbcb62.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$9dda39393b8f80dbcb62.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$ad84e5b2d2f9bde20020$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$ad84e5b2d2f9bde20020$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$ad84e5b2d2f9bde20020.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$ad84e5b2d2f9bde20020.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$f8a66efacf1d565350bc$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$f8a66efacf1d565350bc$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$f8a66efacf1d565350bc$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$f8a66efacf1d565350bc.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\source\olapedia\project\target\config-classes\$f8a66efacf1d565350bc.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/config/DBSetUp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/config/DBSetUp.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ola-ui/app/js/app.js" afterPath="$PROJECT_DIR$/ola-ui/app/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ola-ui/app/js/controllers.js" afterPath="$PROJECT_DIR$/ola-ui/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-olapedia-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/myproject-myproject_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/olapedia-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/olapedia-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/olapedia-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/olapedia-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/myproject/myproject_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/myproject/myproject_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/olapedia-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/olapedia-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/myproject/myproject_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/myproject/myproject_2.11/1.0/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="olapedia.iws" />
@@ -160,7 +73,27 @@
         <entry file="file://$PROJECT_DIR$/ola-ui/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreSystem.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/actors/CoreSystem.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBSetUp.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/config/DBSetUp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48825064">
+              <caret line="11" column="147" selection-start-line="11" selection-start-column="147" selection-end-line="11" selection-end-column="147" />
               <folding />
             </state>
           </provider>
@@ -170,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/ola-ui/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -179,8 +112,8 @@
       <file leaf-file-name="weekendActivities.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ola-ui/app/partials/weekendActivities.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3076925">
-              <caret line="260" column="16" selection-start-line="260" selection-start-column="16" selection-end-line="260" selection-end-column="16" />
+            <state vertical-scroll-proportion="-4.0">
+              <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -204,16 +137,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/boot/Boot.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookingRest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookingRest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/rest/BookingRest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1775457">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding />
             </state>
@@ -244,7 +177,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/domain/Hotel.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/config/DBSetUp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/dao/HotelDAO.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/rest/HotelRest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/rest/OlaRest.scala" />
@@ -254,9 +186,10 @@
         <option value="$PROJECT_DIR$/ola-ui/app/css/app.css" />
         <option value="$PROJECT_DIR$/ola-ui/app/partials/phone-list.html" />
         <option value="$PROJECT_DIR$/ola-ui/app/index.html" />
-        <option value="$PROJECT_DIR$/ola-ui/app/js/app.js" />
         <option value="$PROJECT_DIR$/ola-ui/app/partials/weekendActivities.html" />
+        <option value="$PROJECT_DIR$/ola-ui/app/js/app.js" />
         <option value="$PROJECT_DIR$/ola-ui/app/js/controllers.js" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/config/DBSetUp.scala" />
       </list>
     </option>
   </component>
@@ -447,12 +380,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBSetUp.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="olapedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="olapedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="olapedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="olapedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="boot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Boot.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="olapedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="olapedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -935,18 +962,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ola-ui/app/js/app.js">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/boot/Boot.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/rest/BookingRest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ola-ui/app/partials/weekendActivities.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3076925">
-          <caret line="260" column="16" selection-start-line="260" selection-start-column="16" selection-end-line="260" selection-end-column="16" />
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -965,14 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ola-ui/app/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ola-ui/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -981,18 +1008,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/boot/Boot.scala">
+    <entry file="file://$PROJECT_DIR$/ola-ui/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/rest/BookingRest.scala">
+    <entry file="file://$PROJECT_DIR$/ola-ui/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1775457">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/actors/CoreSystem.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/config/DBSetUp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48825064">
+          <caret line="11" column="147" selection-start-line="11" selection-start-column="147" selection-end-line="11" selection-end-column="147" />
           <folding />
         </state>
       </provider>
