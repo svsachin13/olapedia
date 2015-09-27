@@ -2,9 +2,9 @@
 
 /* Controllers */
 
-var phonecatControllers = angular.module('phonecatControllers', []);
+var olaControllers = angular.module('olaControllers', []);
 
-phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
+olaControllers.controller('olaWeekendPlannerCtrl', ['$scope', 'Phone',
   function($scope, Phone) {
    $scope.shoppingMallList=[];
     $scope.phones = Phone.query();
@@ -81,7 +81,7 @@ phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
     			color: 'red',
     			fillColor: '#f03',
     			fillOpacity: 0.5
-    		}).addTo(map).bindPopup("I am a circle.");
+    		}).addTo(map).bindPopup("My Current Location.");
 
     		L.polygon([
     			[12.942472, 77.556387],
@@ -104,7 +104,7 @@ phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
 
   }]);
 
-phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
+olaControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
   function($scope, $routeParams, Phone) {
     $scope.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
       $scope.mainImageUrl = phone.images[0];
