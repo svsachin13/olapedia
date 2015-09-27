@@ -9,5 +9,5 @@ object MyPostgresDriver extends PostgresDriver
 
 object DBFiles {
   import MyPostgresDriver.api._
-  val database:MyPostgresDriver.backend.DatabaseDef = Database.forURL("jdbc:postgresql://localhost:5432/postgres",user="postgres",password="admin", driver= "org.postgresql.Driver")
+  val database:MyPostgresDriver.backend.DatabaseDef = Database.forURL("jdbc:postgresql://localhost:5432/postgres",user="postgres",password="def123@", driver= "org.postgresql.Driver")
 }
