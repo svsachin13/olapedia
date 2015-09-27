@@ -9,6 +9,7 @@ phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
     $scope.phones = Phone.query();
     $scope.orderProp = 'age';
     var markers = new L.FeatureGroup();
+    $scope.malls=["Garuda Mall","UB City"];
 
     $scope.showShoppingList=()=>{
      markers.clearLayers();

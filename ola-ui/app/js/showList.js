@@ -31,7 +31,7 @@
 			color: 'red',
 			fillColor: '#f03',
 			fillOpacity: 0.5
-		}).addTo(map).bindPopup("I am a circle.");
+		}).addTo(map).bindPopup("Your current location");
 
 		L.polygon([
 			[12.942472, 77.556387],
