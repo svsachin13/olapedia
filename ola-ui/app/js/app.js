@@ -6,11 +6,12 @@ var olaApp = angular.module('olaApp', [
   'ngRoute','localytics.directives',
    'ui.bootstrap',
   'olaControllers',
-   'phonecatServices'
+   'phonecatServices',
+   'restangular'
 ]);
 
-olaApp.config(['$routeProvider',
-  function($routeProvider) {
+olaApp.config(['$routeProvider','RestangularProvider',
+  function($routeProvider,RestangularProvider) {
     $routeProvider.
       when('/ride', {
         templateUrl: 'partials/weekendActivities.html',
@@ -20,4 +21,7 @@ olaApp.config(['$routeProvider',
       otherwise({
         redirectTo: '/ride'
       });
+
+   RestangularProvider.setBaseUrl('https://localhost:8080');
+
   }]);

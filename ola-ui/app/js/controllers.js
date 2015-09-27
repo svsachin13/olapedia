@@ -4,13 +4,28 @@
 
 var olaControllers = angular.module('olaControllers', []);
 
-olaControllers.controller('olaWeekendPlannerCtrl', ['$scope', 'Phone',
-  function($scope, Phone) {
+olaControllers.controller('olaWeekendPlannerCtrl', ['$scope', 'Phone','Restangular',
+  function($scope, Phone,Restangular) {
+
+var baseBooking = Restangular.all('booking');
    $scope.shoppingMallList=[];
-    $scope.phones = Phone.query();
-    $scope.orderProp = 'age';
-    $scope.saveShoppingMallsToList=function(sMall,t){
+      $scope.saveShoppingMallsToList=function(sMall,t){
     $scope.shoppingMallList.push({name:sMall.name,time:t});
+    $scope.location=sMall;
+     }
+
+     $scope.saveBookingData=function(){
+        var  postObj={
+          id:1,
+          userName:"mailmrmanoj",
+           startTime: "2012-11-10T18:30:00Z",
+            endTime: "2012-11-10T18:30:00Z",
+            latitude:$scope.location.location[0],
+            longitude:$scope.location.location[1],
+            isRemoved:false
+         }
+
+     baseBooking.post(postObj);
      }
     var markers = new L.FeatureGroup();
     $scope.malls=[
