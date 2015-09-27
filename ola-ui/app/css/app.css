@@ -98,7 +98,9 @@ h1 {
   border-bottom: 1px solid gray;
 }
 
-//
+.backgroudText{
+margin-left:6px
+}
 html, body {
     height: 100%;
 }
@@ -146,21 +148,25 @@ html, body {
      .bgClr{
          background-color: black;
          color: #D0D924;
-         height:50px
+         height:50px,
+         cursor:pointer !important
          }
 
          .catBG{
                   background-color: white;
                   color: #black;
-                  height:60px
+                  height:60px,
+                  cursor:pointer
                   }
 
          .textClr{
-         font-size :20px}
+         font-size :20px
+
+         }
 
          .pickClr{
           font-size :20px
-         }
+          }
          .panel-body{
 
 height:170px;
