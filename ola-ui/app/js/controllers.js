@@ -25,7 +25,7 @@ var baseBooking = Restangular.all('booking');
             isRemoved:false
          }
 
-     baseBooking.post(postObj);
+     baseBooking.customPOST(postObj);
      }
     var markers = new L.FeatureGroup();
     $scope.malls=[
