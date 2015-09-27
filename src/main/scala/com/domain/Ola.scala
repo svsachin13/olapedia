@@ -7,6 +7,7 @@ import slick.lifted.ProvenShape.proveShapeOf
 
 case class Ola(id:Long, ola: String,isRemoved:Boolean)
 
+
 trait MyTables{
 
   import slick.jdbc.{GetResult => GR}
