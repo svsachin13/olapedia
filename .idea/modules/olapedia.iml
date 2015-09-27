@@ -51,5 +51,6 @@
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-parsing-experimental_2.11:1.0:jar" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-stream-experimental_2.11:1.0:jar" level="project" />
     <orderEntry type="library" name="SBT: joda-time:joda-time:2.8.2:jar" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.11.2" level="application" />
   </component>
 </module>
