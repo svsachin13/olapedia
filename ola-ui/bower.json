@@ -15,6 +15,7 @@
     "angular-animate": "1.4.x",
     "angular-bootstrap": "0.13.2",
     "angular-chosen-localytics": "~1.0.7",
-    "chosen": "~1.4.2"
+    "chosen": "~1.4.2",
+    "restangular": "~1.5.1"
   }
 }

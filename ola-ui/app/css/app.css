@@ -134,3 +134,34 @@ html, body {
     overflow-y: auto;
     width: 250px;
 }
+
+.lText{
+    left: 37px;
+    margin-left: 250px;
+    position: relative;
+    z-index: 1000;
+    width: 85%;
+    }
+
+     .bgClr{
+         background-color: black;
+         color: #D0D924;
+         height:50px
+         }
+
+         .catBG{
+                  background-color: white;
+                  color: #black;
+                  height:60px
+                  }
+
+         .textClr{
+         font-size :20px}
+
+         .pickClr{
+          font-size :20px
+         }
+         .panel-body{
+
+height:170px;
+         }
