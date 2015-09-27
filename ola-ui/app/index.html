@@ -4,14 +4,19 @@
   <meta charset="utf-8">
   <title>OlaPedia</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bower_components/chosen/chosen.min.css">
 
+  <link rel="icon" href="http://d1foexe15giopy.cloudfront.net/mini.png">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/leaflet.css">
   <link href="css/simple-sidebar.css" rel="stylesheet">
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/chosen/chosen.jquery.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-chosen-localytics/chosen.js"></script>
+
   <script src="bower_components/angular-animate/angular-animate.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="bower_components/angular-resource/angular-resource.js"></script>
@@ -27,12 +32,16 @@
   <script src="js/showList.js"></script>
 </head>
 <body>
-<header>
-  <img src="img/Capture.png">
-</header>
+<div class="row">
+  <header>
+    <!--<img src="img/Capture.png">-->
+  </header>
+</div>
+<div class="row">
   <div class="view-container">
     <div ng-view class="view-frame"></div>
   </div>
+</div>
   <script>
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
