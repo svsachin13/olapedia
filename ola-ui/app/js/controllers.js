@@ -6,10 +6,25 @@ var phonecatControllers = angular.module('phonecatControllers', []);
 
 phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
   function($scope, Phone) {
+   $scope.shoppingMallList=[];
     $scope.phones = Phone.query();
     $scope.orderProp = 'age';
+    $scope.saveShoppingMallsToList=function(sMall,t){
+    $scope.shoppingMallList.push({name:sMall.name,time:t});
+     }
     var markers = new L.FeatureGroup();
-    $scope.malls=["Garuda Mall","UB City"];
+    $scope.malls=[
+                            		    {name:"Ub City",location:[12.9715128,77.5942093]},
+                            		    {name:"garuda mall",location:[12.9699951,77.607428]},
+                            		    {name:"forum mall",location:[12.9344387,77.6090822]},
+                            		    {name:"pheonix marketcity",location:[12.9969579,77.6940293]}
+                            		];;
+    $scope.cinemas=[
+                                           {name:"inox value mall",location:[12.9595092,77.7457013]},
+                                          	{name:"pvr forum mall",location:[12.9473114,77.5099069]},
+                                          	{name:"fun cinemas",location:[12.9882352,77.5925242]},
+                                          	{name:"fame shankarnag",location:[12.9744003,77.6074615]}
+                                          	];;
 
     $scope.showShoppingList=()=>{
      markers.clearLayers();

@@ -149,5 +149,19 @@ html, body {
          height:50px
          }
 
+         .catBG{
+                  background-color: white;
+                  color: #black;
+                  height:60px
+                  }
+
          .textClr{
          font-size :20px}
+
+         .pickClr{
+          font-size :20px
+         }
+         .panel-body{
+
+height:170px;
+         }
