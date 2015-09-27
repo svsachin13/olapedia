@@ -20,12 +20,12 @@ var baseBooking = Restangular.all('booking');
           userName:"mailmrmanoj",
            startTime: "2012-11-10T18:30:00Z",
             endTime: "2012-11-10T18:30:00Z",
-            latitude:$scope.location.location[0],
+            lattitude:$scope.location.location[0],
             longitude:$scope.location.location[1],
             isRemoved:false
          }
 
-     baseBooking.post(postObj);
+     baseBooking.customPOST(postObj);
      }
     var markers = new L.FeatureGroup();
     $scope.malls=[

@@ -22,6 +22,6 @@ olaApp.config(['$routeProvider','RestangularProvider',
         redirectTo: '/ride'
       });
 
-   RestangularProvider.setBaseUrl('https://localhost:8080');
+   RestangularProvider.setBaseUrl('http://localhost:8080');
 
   }]);
