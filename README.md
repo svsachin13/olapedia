@@ -2,7 +2,7 @@
 
 ## Overview
 
-This new feature lets you to plan your weekend (or a  holiday plan) outings with Ola,where you need to select a chain of activities that are going to be happened in course of your weekend plan.Ola will auto suggest the places of interest. so that you can commute from one place of your interest to another without any hastle and  without booking the cab again and again.This will also increase the probability of available cabs in real time as the itinerary is already planned.
+This new feature lets you to plan your weekend (or a  holiday plan) outings with Ola,where.Ola will auto suggest the places of interest. so that you can commute from one place of your interest to another without any hastle and  without booking the cab again and again.This will also increase the probability of available cabs in real time as the itinerary is already planned.
 
 ## Prerequisites
 
